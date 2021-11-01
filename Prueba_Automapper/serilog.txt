@@ -1,0 +1,558 @@
+2021-10-22 19:56:11.159 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-22 19:56:11.184 +02:00 [INF] Hosting environment: Development
+2021-10-22 19:56:11.186 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-22 19:56:11.208 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-22 19:56:11.747 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 544.7686ms
+2021-10-22 19:56:12.057 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-22 19:56:12.322 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.5489ms
+2021-10-22 19:56:19.854 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - -
+2021-10-22 19:56:19.937 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:20.031 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-22 19:56:21.982 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-22 19:56:23.931 +02:00 [INF] Executed DbCommand (149ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-22 19:56:24.248 +02:00 [INF] Obtenido el libro ¿SUEÑAN LOS ANDROIDES CON OVEJAS ELÉCTRICAS?       a las 19:56:24:234
+2021-10-22 19:56:24.268 +02:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-22 19:56:24.311 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 4268.9537ms
+2021-10-22 19:56:24.312 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:24.328 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - - - 200 - application/json;+charset=utf-8 4474.1290ms
+2021-10-22 19:56:27.753 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - -
+2021-10-22 19:56:27.757 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:27.758 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-22 19:56:27.842 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-22 19:56:27.901 +02:00 [INF] Executed DbCommand (47ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-22 19:56:27.905 +02:00 [INF] Obtenido el libro ¿SUEÑAN LOS ANDROIDES CON OVEJAS ELÉCTRICAS?       a las 19:56:27:903
+2021-10-22 19:56:27.906 +02:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-22 19:56:27.907 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 149.4067ms
+2021-10-22 19:56:27.908 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:27.908 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - - - 200 - application/json;+charset=utf-8 155.3298ms
+2021-10-22 19:56:30.617 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=2 - -
+2021-10-22 19:56:30.617 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:30.617 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-22 19:56:30.639 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-22 19:56:30.686 +02:00 [INF] Executed DbCommand (44ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-22 19:56:30.691 +02:00 [INF] Obtenido el libro 1280 ALMAS                                         a las 19:56:30:688
+2021-10-22 19:56:30.692 +02:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-22 19:56:30.693 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 75.5955ms
+2021-10-22 19:56:30.693 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:30.695 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=2 - - - 200 - application/json;+charset=utf-8 77.9530ms
+2021-10-22 19:56:34.258 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=3 - -
+2021-10-22 19:56:34.258 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:34.259 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-22 19:56:34.260 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-22 19:56:34.306 +02:00 [INF] Executed DbCommand (44ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-22 19:56:34.309 +02:00 [INF] Obtenido el libro 2001 UNA ODISEA ESPACIAL                           a las 19:56:34:306
+2021-10-22 19:56:34.309 +02:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-22 19:56:34.311 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 51.5238ms
+2021-10-22 19:56:34.311 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:34.311 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=3 - - - 200 - application/json;+charset=utf-8 53.6098ms
+2021-10-22 19:56:37.533 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=123 - -
+2021-10-22 19:56:37.533 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:37.533 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-22 19:56:37.535 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-22 19:56:37.583 +02:00 [INF] Executed DbCommand (46ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-22 19:56:37.587 +02:00 [INF] Obtenido el libro DECIDNOS ¿QUIÉN MATÓ AL CONDE?                     a las 19:56:37:583
+2021-10-22 19:56:37.587 +02:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-22 19:56:37.589 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 55.2382ms
+2021-10-22 19:56:37.589 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-22 19:56:37.590 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=123 - - - 200 - application/json;+charset=utf-8 56.7832ms
+2021-10-29 07:17:53.671 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-29 07:17:53.741 +02:00 [INF] Hosting environment: Development
+2021-10-29 07:17:53.744 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-29 07:17:53.793 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-29 07:17:54.186 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 400.5349ms
+2021-10-29 07:17:54.880 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-29 07:17:54.929 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - -
+2021-10-29 07:17:54.990 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-10-29 07:17:54.992 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - - - 200 628 image/png 62.4326ms
+2021-10-29 07:17:55.132 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 251.2841ms
+2021-10-29 07:29:55.322 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-29 07:29:55.352 +02:00 [INF] Hosting environment: Development
+2021-10-29 07:29:55.355 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-29 07:29:55.417 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-29 07:29:55.776 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 362.9038ms
+2021-10-29 07:29:56.148 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-29 07:29:56.383 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.7732ms
+2021-10-29 07:36:24.470 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 347
+2021-10-29 07:36:24.838 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-29 07:36:24.942 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-29 07:36:27.112 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper) in 2158.8644ms
+2021-10-29 07:36:27.117 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-29 07:36:27.487 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Mlib
+System.Object -> Prueba_Automapper.Models.Mlib
+   at lambda_method16(Closure , Object , Mlib , ResolutionContext )
+   at Prueba_Automapper.Repository.Mlib_WithDTO.CrearMlib(LibroDTO dto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Repository\Mlib_WithDTO.cs:line 46
+   at Prueba_Automapper.Controllers.biblosController.CrearMlib(LibroDTO librodto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Controllers\biblosController.cs:line 143
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-29 07:36:27.565 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44314/api/biblos application/json 347 - 500 - text/plain 3096.3666ms
+2021-10-29 07:41:20.827 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 349
+2021-10-29 07:41:20.842 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-29 07:41:20.843 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-29 07:42:17.566 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper) in 56722.881ms
+2021-10-29 07:42:17.573 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-29 07:42:17.690 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Mlib
+System.Object -> Prueba_Automapper.Models.Mlib
+   at lambda_method16(Closure , Object , Mlib , ResolutionContext )
+   at Prueba_Automapper.Repository.Mlib_WithDTO.CrearMlib(LibroDTO dto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Repository\Mlib_WithDTO.cs:line 46
+   at Prueba_Automapper.Controllers.biblosController.CrearMlib(LibroDTO librodto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Controllers\biblosController.cs:line 143
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-29 07:42:17.698 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44314/api/biblos application/json 349 - 500 - text/plain 56870.5923ms
+2021-10-29 07:44:02.389 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 349
+2021-10-29 07:44:02.389 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-29 07:44:02.389 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-29 07:47:56.833 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper) in 234443.1745ms
+2021-10-29 07:47:56.835 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-29 07:47:56.884 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Mlib
+System.Object -> Prueba_Automapper.Models.Mlib
+   at lambda_method16(Closure , Object , Mlib , ResolutionContext )
+   at Prueba_Automapper.Repository.Mlib_WithDTO.CrearMlib(LibroDTO dto)
+   at Prueba_Automapper.Controllers.biblosController.CrearMlib(LibroDTO librodto)
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-29 07:47:56.892 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44314/api/biblos application/json 349 - 500 - text/plain 234503.5226ms
+2021-10-29 07:48:29.522 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=42 - -
+2021-10-29 07:48:29.524 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-29 07:48:29.546 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-29 07:48:34.373 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-29 07:48:37.283 +02:00 [INF] Executed DbCommand (187ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-29 07:49:19.677 +02:00 [INF] Obtenido el libro ASESINATO EN BARDSLEY MEWS                         a las 07:49:18:547
+2021-10-29 07:49:32.537 +02:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-29 07:49:32.568 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 63021.8839ms
+2021-10-29 07:49:32.570 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-29 07:49:32.583 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=42 - - - 200 - application/json;+charset=utf-8 63060.6686ms
+2021-10-29 07:52:07.809 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-29 07:52:07.839 +02:00 [INF] Hosting environment: Development
+2021-10-29 07:52:07.842 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-29 07:52:07.929 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-29 07:52:08.495 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 571.6112ms
+2021-10-29 07:52:09.130 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-29 07:52:09.359 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 228.9910ms
+2021-10-29 07:52:42.725 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 347
+2021-10-29 07:52:42.828 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-29 07:52:42.913 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-29 07:53:33.514 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper) in 50588.5669ms
+2021-10-29 07:53:33.525 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-29 07:53:33.776 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Mlib
+System.Object -> Prueba_Automapper.Models.Mlib
+   at lambda_method16(Closure , Object , Mlib , ResolutionContext )
+   at Prueba_Automapper.Repository.Mlib_WithDTO.CrearMlib(LibroDTO dto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Repository\Mlib_WithDTO.cs:line 46
+   at Prueba_Automapper.Controllers.biblosController.CrearMlib(LibroDTO librodto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Controllers\biblosController.cs:line 143
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-29 07:53:33.812 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44314/api/biblos application/json 347 - 500 - text/plain 51087.8890ms
+2021-10-30 01:29:18.847 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 01:29:18.900 +02:00 [INF] Hosting environment: Development
+2021-10-30 01:29:18.902 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 01:29:18.942 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 01:29:19.300 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 362.3860ms
+2021-10-30 01:29:19.772 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 01:29:20.011 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.4341ms
+2021-10-30 01:38:10.921 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 287
+2021-10-30 01:38:11.019 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:38:11.102 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 01:40:06.954 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper) in 115840.9561ms
+2021-10-30 01:40:06.965 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:40:07.301 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Mlib
+System.Object -> Prueba_Automapper.Models.Mlib
+   at lambda_method16(Closure , Object , Mlib , ResolutionContext )
+   at Prueba_Automapper.Repository.Mlib_WithDTO.CrearMlib(LibroDTO dto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Repository\Mlib_WithDTO.cs:line 46
+   at Prueba_Automapper.Controllers.biblosController.CrearMlib(LibroDTO librodto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Controllers\biblosController.cs:line 143
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30 01:40:07.361 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44314/api/biblos application/json 287 - 500 - text/plain 116442.7191ms
+2021-10-30 01:40:30.465 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 347
+2021-10-30 01:40:30.467 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:40:30.468 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 01:41:28.898 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper) in 58429.7744ms
+2021-10-30 01:41:28.905 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:41:29.018 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Mlib
+System.Object -> Prueba_Automapper.Models.Mlib
+   at lambda_method16(Closure , Object , Mlib , ResolutionContext )
+   at Prueba_Automapper.Repository.Mlib_WithDTO.CrearMlib(LibroDTO dto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Repository\Mlib_WithDTO.cs:line 46
+   at Prueba_Automapper.Controllers.biblosController.CrearMlib(LibroDTO librodto) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Controllers\biblosController.cs:line 143
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30 01:41:29.044 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44314/api/biblos application/json 347 - 500 - text/plain 58582.3477ms
+2021-10-30 01:45:33.445 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 01:45:33.469 +02:00 [INF] Hosting environment: Development
+2021-10-30 01:45:33.471 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 01:45:33.486 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 01:45:33.854 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 373.6425ms
+2021-10-30 01:45:34.339 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 01:45:34.574 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 235.2561ms
+2021-10-30 01:45:57.635 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 347
+2021-10-30 01:45:57.732 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:45:57.809 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 01:49:56.133 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 01:49:56.157 +02:00 [INF] Hosting environment: Development
+2021-10-30 01:49:56.160 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 01:49:56.189 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 01:49:56.616 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 433.0653ms
+2021-10-30 01:49:57.207 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 01:49:57.446 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.3820ms
+2021-10-30 01:50:13.380 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 347
+2021-10-30 01:50:13.469 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:50:13.545 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 01:51:41.042 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 01:51:41.070 +02:00 [INF] Hosting environment: Development
+2021-10-30 01:51:41.072 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 01:51:41.090 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 01:51:41.448 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 364.6697ms
+2021-10-30 01:51:41.790 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 01:51:42.015 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 225.2772ms
+2021-10-30 01:51:55.337 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 347
+2021-10-30 01:51:55.432 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:51:55.517 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 01:51:57.834 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-30 01:52:00.882 +02:00 [INF] Executed DbCommand (233ms) [Parameters=[@p0='?' (Size = 50) (DbType = StringFixedLength), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (Size = 25) (DbType = StringFixedLength), @p4='?' (Size = 255) (DbType = StringFixedLength), @p5='?' (Size = 25) (DbType = StringFixedLength), @p6='?' (DbType = DateTime), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (Size = 10) (DbType = StringFixedLength), @p10='?' (DbType = Int32), @p11='?' (Size = 30) (DbType = StringFixedLength), @p12='?' (Size = 30) (DbType = StringFixedLength), @p13='?' (Size = 50) (DbType = StringFixedLength)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [mlib] ([autor], [calificacion], [CodAutor], [coleccion], [comentario], [editorial], [fecha], [fecha_prestamo], [numobras], [origen], [paginas], [prestamo], [tema], [titulo])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [idLibro]
+FROM [mlib]
+WHERE @@ROWCOUNT = 1 AND [idLibro] = scope_identity();
+2021-10-30 01:52:01.140 +02:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-30 01:52:01.191 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper) in 5653.6906ms
+2021-10-30 01:52:01.193 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:52:01.212 +02:00 [INF] Request finished HTTP/2 POST https://localhost:44314/api/biblos application/json 347 - 200 - application/json;+charset=utf-8 5875.3713ms
+2021-10-30 01:54:29.784 +02:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 347
+2021-10-30 01:54:29.794 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-30 01:54:29.795 +02:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 01:59:10.244 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 01:59:10.267 +02:00 [INF] Hosting environment: Development
+2021-10-30 01:59:10.270 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 01:59:10.290 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 01:59:10.625 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 338.7121ms
+2021-10-30 01:59:10.976 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 01:59:11.194 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.2453ms
+2021-10-30 02:00:05.552 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=133 - -
+2021-10-30 02:00:05.644 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-30 02:00:05.717 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 02:00:14.119 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-30 02:00:16.287 +02:00 [INF] Executed DbCommand (208ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-30 02:00:35.860 +02:00 [INF] Obtenido el libro DIEZ NEGRITOS .                                    a las 02:00:33:758
+2021-10-30 02:00:45.846 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 40116.5663ms
+2021-10-30 02:00:45.848 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-30 02:00:46.250 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Mlib
+System.Object -> Prueba_Automapper.Models.Mlib
+   at lambda_method99(Closure , Object , Mlib , ResolutionContext )
+   at Prueba_Automapper.Repository.Mlib_WithDTO.GetMlib(Int32 id) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Repository\Mlib_WithDTO.cs:line 150
+   at Prueba_Automapper.Controllers.biblosController.GetMlib(Int32 id) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Controllers\biblosController.cs:line 43
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-30 02:00:46.348 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=133 - - - 500 - text/plain 40796.4356ms
+2021-10-30 02:04:51.270 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 02:04:51.300 +02:00 [INF] Hosting environment: Development
+2021-10-30 02:04:51.303 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 02:04:51.338 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 02:04:51.717 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 389.1908ms
+2021-10-30 02:04:52.157 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 02:04:52.378 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.3048ms
+2021-10-30 02:05:11.012 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libroopinionDTO?id=133 - -
+2021-10-30 02:05:11.109 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.Recovery_Libro_Opinion (Prueba_Automapper)'
+2021-10-30 02:05:11.188 +02:00 [INF] Route matched with {action = "Recovery_Libro_Opinion", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Prueba_Automapper.DTO.LibrosOpinionDTO] Recovery_Libro_Opinion(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 02:05:15.421 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-30 02:05:17.386 +02:00 [INF] Executed DbCommand (147ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__id_0
+2021-10-30 02:05:34.445 +02:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.DTO.LibrosOpinionDTO'.
+2021-10-30 02:05:34.487 +02:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.Recovery_Libro_Opinion (Prueba_Automapper) in 23286.5817ms
+2021-10-30 02:05:34.489 +02:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.Recovery_Libro_Opinion (Prueba_Automapper)'
+2021-10-30 02:05:34.503 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libroopinionDTO?id=133 - - - 200 - application/json;+charset=utf-8 23491.3716ms
+2021-10-30 02:10:13.986 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 02:10:14.018 +02:00 [INF] Hosting environment: Development
+2021-10-30 02:10:14.020 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 02:10:14.041 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 02:10:14.396 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 359.6281ms
+2021-10-30 02:10:14.756 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 02:10:14.993 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 237.2213ms
+2021-10-30 02:10:23.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=133 - -
+2021-10-30 02:10:23.270 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-30 02:10:23.344 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 02:10:27.372 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-30 02:10:29.643 +02:00 [INF] Executed DbCommand (139ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-30 02:11:09.964 +02:00 [INF] Obtenido el libro DIEZ NEGRITOS .                                    a las 02:11:07:733
+2021-10-30 02:17:58.861 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 02:17:58.885 +02:00 [INF] Hosting environment: Development
+2021-10-30 02:17:58.888 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 02:17:58.907 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 02:17:59.303 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 400.9999ms
+2021-10-30 02:17:59.615 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 02:17:59.831 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 215.3920ms
+2021-10-30 02:18:09.180 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=133 - -
+2021-10-30 02:18:09.273 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-30 02:18:09.353 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 02:18:13.638 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-30 02:18:15.670 +02:00 [INF] Executed DbCommand (137ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-30 02:18:18.310 +02:00 [INF] Obtenido el libro DIEZ NEGRITOS .                                    a las 02:18:17:303
+2021-10-30 02:19:13.320 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 02:19:13.352 +02:00 [INF] Hosting environment: Development
+2021-10-30 02:19:13.354 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 02:19:13.363 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 02:19:13.738 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 379.8899ms
+2021-10-30 02:19:14.044 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 02:19:14.264 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 220.3732ms
+2021-10-30 02:19:36.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=133 - -
+2021-10-30 02:19:36.266 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-30 02:19:36.342 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 02:19:43.329 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-30 02:19:45.281 +02:00 [INF] Executed DbCommand (144ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-30 02:19:47.703 +02:00 [INF] Obtenido el libro DIEZ NEGRITOS .                                    a las 02:19:46:754
+2021-10-30 02:21:41.485 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-30 02:21:41.513 +02:00 [INF] Hosting environment: Development
+2021-10-30 02:21:41.516 +02:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-30 02:21:41.538 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-30 02:21:41.875 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 330.7009ms
+2021-10-30 02:21:42.244 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-30 02:21:42.472 +02:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.5583ms
+2021-10-30 02:21:49.244 +02:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=133 - -
+2021-10-30 02:21:49.338 +02:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-30 02:21:49.413 +02:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-30 02:21:55.241 +02:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-30 02:21:57.225 +02:00 [INF] Executed DbCommand (141ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-30 02:22:00.139 +02:00 [INF] Obtenido el libro DIEZ NEGRITOS .                                    a las 02:21:59:98
+2021-10-31 11:38:57.167 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-31 11:38:57.269 +01:00 [INF] Hosting environment: Development
+2021-10-31 11:38:57.272 +01:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-10-31 11:38:57.271 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-10-31 11:38:57.710 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 454.4503ms
+2021-10-31 11:38:58.160 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-10-31 11:38:58.393 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 232.2185ms
+2021-10-31 11:39:12.100 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=132 - -
+2021-10-31 11:39:12.191 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-31 11:39:12.268 +01:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-31 11:39:26.521 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-31 11:39:29.180 +01:00 [INF] Executed DbCommand (143ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-10-31 11:40:35.591 +01:00 [INF] Obtenido el libro DIEZ NEGRITOS                                      a las 11:40:33:862
+2021-10-31 11:40:56.397 +01:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-31 11:40:56.438 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 104157.7784ms
+2021-10-31 11:40:56.440 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-10-31 11:40:56.454 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=132 - - - 200 - application/json;+charset=utf-8 104353.3407ms
+2021-10-31 12:09:53.891 +01:00 [INF] Request starting HTTP/2 POST https://localhost:44314/api/biblos application/json 347
+2021-10-31 12:09:53.903 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-31 12:09:53.930 +01:00 [INF] Route matched with {action = "CrearMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] CrearMlib(Prueba_Automapper.DTO.LibroDTO) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-10-31 12:10:11.263 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-10-31 12:10:14.207 +01:00 [INF] Executed DbCommand (107ms) [Parameters=[@p0='?' (Size = 50) (DbType = StringFixedLength), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (Size = 25), @p4='?' (Size = 255), @p5='?' (Size = 25), @p6='?' (DbType = DateTime), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32), @p9='?' (Size = 10), @p10='?' (DbType = Int32), @p11='?' (Size = 30), @p12='?' (Size = 30), @p13='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [mlib] ([autor], [calificacion], [CodAutor], [coleccion], [comentario], [editorial], [fecha], [fecha_prestamo], [numobras], [origen], [paginas], [prestamo], [tema], [titulo])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13);
+SELECT [idLibro]
+FROM [mlib]
+WHERE @@ROWCOUNT = 1 AND [idLibro] = scope_identity();
+2021-10-31 12:10:16.970 +01:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-10-31 12:10:16.978 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper) in 23046.831ms
+2021-10-31 12:10:16.978 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.CrearMlib (Prueba_Automapper)'
+2021-10-31 12:10:16.979 +01:00 [INF] Request finished HTTP/2 POST https://localhost:44314/api/biblos application/json 347 - 200 - application/json;+charset=utf-8 23089.0193ms
+2021-11-01 00:41:56.959 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-01 00:41:57.028 +01:00 [INF] Hosting environment: Development
+2021-11-01 00:41:57.030 +01:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-11-01 00:41:57.057 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-11-01 00:41:57.226 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-11-01 00:41:57.276 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 226.1603ms
+2021-11-01 00:41:57.484 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 257.0690ms
+2021-11-01 00:41:57.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-11-01 00:41:57.528 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-11-01 00:41:57.532 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-11-01 00:41:57.656 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-01 00:41:57.656 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-11-01 00:41:57.697 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 170.3377ms
+2021-11-01 00:41:57.715 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 182.9104ms
+2021-11-01 00:41:57.726 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-11-01 00:41:57.753 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 224.9414ms
+2021-11-01 00:41:58.390 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-11-01 00:41:58.658 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 268.3199ms
+2021-11-01 00:44:22.103 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - -
+2021-11-01 00:44:22.233 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-11-01 00:44:22.354 +01:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-01 00:44:29.258 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-01 00:44:31.778 +01:00 [INF] Executed DbCommand (141ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-11-01 00:44:39.515 +01:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-11-01 00:44:39.567 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 17197.1128ms
+2021-11-01 00:44:39.569 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-11-01 00:44:39.579 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - - - 200 - application/json;+charset=utf-8 17476.1271ms
+2021-11-01 01:14:06.112 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-01 01:14:06.134 +01:00 [INF] Hosting environment: Development
+2021-11-01 01:14:06.136 +01:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-11-01 01:14:06.198 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-11-01 01:14:06.689 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 498.1763ms
+2021-11-01 01:14:07.318 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-11-01 01:14:07.597 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 279.2437ms
+2021-11-01 01:14:20.186 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - -
+2021-11-01 01:14:20.286 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-11-01 01:14:20.372 +01:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-01 01:14:42.966 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-01 01:14:44.976 +01:00 [INF] Executed DbCommand (200ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-11-01 01:14:52.533 +01:00 [INF] Obtenido el libro ¿SUEÑAN LOS ANDROIDES CON OVEJAS ELÉCTRICAS?       a las 01:14:49:204
+2021-11-01 01:14:53.820 +01:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-11-01 01:14:53.864 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 33479.9818ms
+2021-11-01 01:14:53.866 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-11-01 01:14:53.878 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - - - 200 - application/json;+charset=utf-8 33692.1902ms
