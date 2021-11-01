@@ -230,5 +230,11 @@ _Pvt_Extensions
 # Paket dependency manager
 .paket/paket.exe
 
+
+# Logs
+*log.txt
+
+
+
 # FAKE - F# Make
 .fake/

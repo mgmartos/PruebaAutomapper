@@ -556,3 +556,10 @@ WHERE [m].[idLibro] = @__p_0
 2021-11-01 01:14:53.864 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 33479.9818ms
 2021-11-01 01:14:53.866 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
 2021-11-01 01:14:53.878 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - - - 200 - application/json;+charset=utf-8 33692.1902ms
+2021-11-01 10:40:38.698 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-01 10:40:38.747 +01:00 [INF] Hosting environment: Development
+2021-11-01 10:40:38.749 +01:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-11-01 10:40:38.746 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-11-01 10:40:39.090 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 355.2642ms
+2021-11-01 10:40:39.843 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-11-01 10:40:40.114 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 270.6866ms
