@@ -42,6 +42,7 @@ namespace Prueba_Automapper
 
             services.AddDbContext<biblosContext>(options => options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
             services.AddScoped<IMlib_WithDTO, Mlib_WithDTO>();
+            // se añade servicio para que funciones Loggin / Ilogin
             services.AddScoped<ILogin, Loggin>();
             services.AddLogging(builder => {
                 builder//.AddConfiguration(configuration.GetSection("Logging"))
