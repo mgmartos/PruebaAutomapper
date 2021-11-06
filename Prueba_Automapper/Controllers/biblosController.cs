@@ -145,47 +145,62 @@ namespace Prueba_Automapper.Controllers
             //return CreatedAtAction("GetMlib", new { id = mlib.IdLibro }, mlib);
         }
 
-       /*  // DELETE: api/biblos/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteMlib(int id)
+        // GET: api/biblos
+        [HttpGet("temas")]
+        public async Task<List<string>> GetTemas()
         {
-            var mlib = await _context.Mlibs.FindAsync(id);
-            if (mlib == null)
-            {
-                return NotFound();
-            }
-
-            _context.Mlibs.Remove(mlib);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
+            return await this._repository.GetTemas();
         }
-
-        private bool MlibExists(int id)
+        // GET: api/biblos
+        [HttpGet("librostema")]
+        public async Task<IEnumerable<Mlib>> GetLibrosTema(string tema)
         {
-            return _context.Mlibs.Any(e => e.IdLibro == id);
+            return await this._repository.GetLibrosTema(tema);
         }
 
 
-        [HttpGet("autores")]
-        public async Task<ActionResult<IEnumerable<Autore>>> GETAutores()
-        {
-            return await _context.Autores.ToListAsync();
-        }
 
-        [HttpGet("autor")]
-        public async Task<ActionResult<Autore>> GetAutor(int id)
-        {
-            var autor = await _context.Autores.FindAsync(id);
+        /*  // DELETE: api/biblos/5
+         [HttpDelete("{id}")]
+         public async Task<IActionResult> DeleteMlib(int id)
+         {
+             var mlib = await _context.Mlibs.FindAsync(id);
+             if (mlib == null)
+             {
+                 return NotFound();
+             }
 
-            if (autor == null)
-            {
-                return NotFound();
-            }
+             _context.Mlibs.Remove(mlib);
+             await _context.SaveChangesAsync();
 
-            return autor;
-        }
+             return NoContent();
+         }
 
-        */
+         private bool MlibExists(int id)
+         {
+             return _context.Mlibs.Any(e => e.IdLibro == id);
+         }
+
+
+         [HttpGet("autores")]
+         public async Task<ActionResult<IEnumerable<Autore>>> GETAutores()
+         {
+             return await _context.Autores.ToListAsync();
+         }
+
+         [HttpGet("autor")]
+         public async Task<ActionResult<Autore>> GetAutor(int id)
+         {
+             var autor = await _context.Autores.FindAsync(id);
+
+             if (autor == null)
+             {
+                 return NotFound();
+             }
+
+             return autor;
+         }
+
+         */
     }
 }

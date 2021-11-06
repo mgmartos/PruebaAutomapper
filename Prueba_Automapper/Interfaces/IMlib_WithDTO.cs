@@ -31,6 +31,9 @@ namespace Prueba_Automapper.Interfaces
         Task<LibrosOpinionDTO> Recovery_Libro_Opinion(int id);
         Task<List<LibrosOpinionDTO>> Recovery_Libros_Opinion();
 
+        Task<List<string>> GetTemas();
+
+        Task<IEnumerable<Mlib>> GetLibrosTema(string Tema);
 
 
 

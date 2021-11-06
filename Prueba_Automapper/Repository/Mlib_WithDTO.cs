@@ -275,5 +275,16 @@ namespace Prueba_Automapper.Repository
             //}
             //return lDto;
         }
+
+        public async Task<List<string>> GetTemas()
+        {
+            return await this._context.Mlibs.Select(t => t.Tema).Distinct().ToListAsync();
+        }
+
+        public async Task<IEnumerable<Mlib>> GetLibrosTema(string tema)
+        {
+
+            return await this._context.Mlibs.Where(t => t.Tema == tema).ToListAsync();
+        }
     }
 }

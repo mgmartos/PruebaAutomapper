@@ -1,5 +1,4 @@
 D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\appsettings.Development.json
-D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\appsettings.json
 D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\Prueba_Automapper.exe
 D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\Prueba_Automapper.deps.json
 D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\Prueba_Automapper.runtimeconfig.json
@@ -138,3 +137,4 @@ D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\AutoMappe
 D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\Serilog.dll
 D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
 D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\Serilog.Sinks.File.dll
+D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper\bin\Debug\net5.0\appsettings.json

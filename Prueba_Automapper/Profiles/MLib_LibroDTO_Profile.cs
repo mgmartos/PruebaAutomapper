@@ -13,6 +13,7 @@ namespace Prueba_Automapper.Profiles
         public MLib_LibroDTO_Profile()
         {
             CreateMap<Mlib, LibroDTO>();
+
             CreateMap<LibroDTO, Mlib>();
         }
     }
