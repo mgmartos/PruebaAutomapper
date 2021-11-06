@@ -170,6 +170,12 @@ namespace Prueba_Automapper.Controllers
         {
             return await this._repository.GetLibrosEditorial(editorial);
         }
+        // GET: api/biblos
+        [HttpGet("libroseditorialtema")]
+        public async Task<IEnumerable<Mlib>> GetLibrosEditorialTema(string editorial, string tema)
+        {
+            return await this._repository.GetLibrosEditorialTema(editorial,tema);
+        }
 
 
         /*  // DELETE: api/biblos/5

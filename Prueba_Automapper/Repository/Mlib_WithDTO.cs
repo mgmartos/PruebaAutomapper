@@ -296,5 +296,11 @@ namespace Prueba_Automapper.Repository
         {
             return await this._context.Mlibs.Where(e => e.Editorial.Trim().ToLower() == editorial.Trim().ToLower()).ToListAsync();
         }
+
+        public async Task<IEnumerable<Mlib>> GetLibrosEditorialTema(string editorial, string tema)
+        {
+            return await this._context.Mlibs.Where(e => e.Editorial.Trim().ToLower() == editorial.Trim().ToLower() && 
+              e.Tema.Trim().ToLower() == tema.Trim().ToLower()).ToListAsync();
+        }
     }
 }
