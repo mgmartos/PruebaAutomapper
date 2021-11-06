@@ -35,7 +35,9 @@ namespace Prueba_Automapper.Interfaces
 
         Task<IEnumerable<Mlib>> GetLibrosTema(string Tema);
 
+        Task<List<string>> GetEditoriales();
 
+        Task<IEnumerable<Mlib>> GetLibrosEditorial(string idEditorial);
 
 
 
