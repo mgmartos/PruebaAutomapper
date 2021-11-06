@@ -731,3 +731,117 @@ WHERE [m].[tema] = @__tema_0
 2021-11-06 09:25:10.234 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper) in 4995.9837ms
 2021-11-06 09:25:10.236 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
 2021-11-06 09:25:10.250 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=NOVELA - - - 200 - application/json;+charset=utf-8 5212.3205ms
+2021-11-06 09:48:59.382 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-06 09:48:59.405 +01:00 [INF] Hosting environment: Development
+2021-11-06 09:48:59.407 +01:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-11-06 09:48:59.422 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-11-06 09:48:59.761 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 342.2803ms
+2021-11-06 09:49:00.257 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-11-06 09:49:00.472 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 214.5323ms
+2021-11-06 09:49:23.209 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=%20NOVELA%20HIST%C3%93RICA%20%20%20%20%20%20%20%20%20%20%20%20%20 - -
+2021-11-06 09:49:23.313 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
+2021-11-06 09:49:23.403 +01:00 [INF] Route matched with {action = "GetLibrosTema", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Prueba_Automapper.Models.Mlib]] GetLibrosTema(System.String) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-06 09:49:25.253 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-06 09:49:27.308 +01:00 [INF] Executed DbCommand (201ms) [Parameters=[@__ToLower_0='?' (Size = 30)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE LOWER(LTRIM(RTRIM([m].[tema]))) = @__ToLower_0
+2021-11-06 09:49:27.589 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.Models.Mlib, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-06 09:49:27.649 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper) in 4231.171ms
+2021-11-06 09:49:27.651 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
+2021-11-06 09:49:27.686 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=%20NOVELA%20HIST%C3%93RICA%20%20%20%20%20%20%20%20%20%20%20%20%20 - - - 200 - application/json;+charset=utf-8 4477.1090ms
+2021-11-06 09:49:45.601 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=%20NOVELA%20HIST%C3%93RICA%20%20%20 - -
+2021-11-06 09:49:45.606 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
+2021-11-06 09:49:45.606 +01:00 [INF] Route matched with {action = "GetLibrosTema", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Prueba_Automapper.Models.Mlib]] GetLibrosTema(System.String) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-06 09:49:45.707 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-06 09:49:45.770 +01:00 [INF] Executed DbCommand (53ms) [Parameters=[@__ToLower_0='?' (Size = 30)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE LOWER(LTRIM(RTRIM([m].[tema]))) = @__ToLower_0
+2021-11-06 09:49:45.781 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.Models.Mlib, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-06 09:49:45.782 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper) in 175.1373ms
+2021-11-06 09:49:45.782 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
+2021-11-06 09:49:45.783 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=%20NOVELA%20HIST%C3%93RICA%20%20%20 - - - 200 - application/json;+charset=utf-8 181.7911ms
+2021-11-06 09:49:53.215 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=NOVELA%20HIST%C3%93RICA%20%20%20 - -
+2021-11-06 09:49:53.216 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
+2021-11-06 09:49:53.216 +01:00 [INF] Route matched with {action = "GetLibrosTema", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Prueba_Automapper.Models.Mlib]] GetLibrosTema(System.String) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-06 09:49:53.280 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-06 09:49:53.328 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[@__ToLower_0='?' (Size = 30)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE LOWER(LTRIM(RTRIM([m].[tema]))) = @__ToLower_0
+2021-11-06 09:49:53.331 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.Models.Mlib, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-06 09:49:53.332 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper) in 116.0956ms
+2021-11-06 09:49:53.332 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
+2021-11-06 09:49:53.333 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=NOVELA%20HIST%C3%93RICA%20%20%20 - - - 200 - application/json;+charset=utf-8 117.3242ms
+2021-11-06 09:50:03.753 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=NOVELA%20hist%C3%93RICA%20%20%20 - -
+2021-11-06 09:50:03.753 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
+2021-11-06 09:50:03.754 +01:00 [INF] Route matched with {action = "GetLibrosTema", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Prueba_Automapper.Models.Mlib]] GetLibrosTema(System.String) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-06 09:50:03.755 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-06 09:50:03.800 +01:00 [INF] Executed DbCommand (43ms) [Parameters=[@__ToLower_0='?' (Size = 30)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE LOWER(LTRIM(RTRIM([m].[tema]))) = @__ToLower_0
+2021-11-06 09:50:03.804 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.Models.Mlib, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-06 09:50:03.805 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper) in 51.0662ms
+2021-11-06 09:50:03.805 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosTema (Prueba_Automapper)'
+2021-11-06 09:50:03.806 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/librostema?tema=NOVELA%20hist%C3%93RICA%20%20%20 - - - 200 - application/json;+charset=utf-8 52.9276ms
+2021-11-06 10:29:02.608 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-06 10:29:02.639 +01:00 [INF] Hosting environment: Development
+2021-11-06 10:29:02.641 +01:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-11-06 10:29:02.645 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-11-06 10:29:02.997 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 345.8177ms
+2021-11-06 10:29:03.327 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-11-06 10:29:03.542 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 214.3593ms
+2021-11-06 10:32:20.521 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/editoriales - -
+2021-11-06 10:32:20.622 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-11-06 10:32:20.680 +01:00 [INF] Route matched with {action = "GetEditoriales", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetEditoriales() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-06 10:32:22.447 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-06 10:32:24.245 +01:00 [INF] Executed DbCommand (195ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT [m].[editorial]
+FROM [mlib] AS [m]
+2021-11-06 10:32:24.350 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-11-06 10:32:24.384 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper) in 3687.5171ms
+2021-11-06 10:32:24.386 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-11-06 10:32:24.404 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/editoriales - - - 200 - application/json;+charset=utf-8 3883.0903ms
+2021-11-06 10:34:05.926 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-06 10:34:05.950 +01:00 [INF] Hosting environment: Development
+2021-11-06 10:34:05.952 +01:00 [INF] Content root path: D:\Pruebas\Senior\Prueba_Automapper\Prueba_Automapper
+2021-11-06 10:34:05.977 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-11-06 10:34:06.302 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 336.0966ms
+2021-11-06 10:34:06.685 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-11-06 10:34:06.894 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 208.3296ms
+2021-11-06 10:34:24.643 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/editoriales - -
+2021-11-06 10:34:24.753 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-11-06 10:34:24.813 +01:00 [INF] Route matched with {action = "GetEditoriales", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetEditoriales() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-06 10:34:26.581 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-06 10:34:28.404 +01:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-11-06 10:34:28.485 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-11-06 10:34:28.510 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper) in 3685.0737ms
+2021-11-06 10:34:28.511 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-11-06 10:34:28.525 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/editoriales - - - 200 - application/json;+charset=utf-8 3882.0695ms
+2021-11-06 10:35:08.512 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libroseditorial?editorial=Bruguera - -
+2021-11-06 10:35:08.523 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosEditorial (Prueba_Automapper)'
+2021-11-06 10:35:08.554 +01:00 [INF] Route matched with {action = "GetLibrosEditorial", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Prueba_Automapper.Models.Mlib]] GetLibrosEditorial(System.String) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-06 10:35:08.639 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-06 10:35:08.865 +01:00 [INF] Executed DbCommand (82ms) [Parameters=[@__ToLower_0='?' (Size = 25)], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE LOWER(LTRIM(RTRIM([m].[editorial]))) = @__ToLower_0
+2021-11-06 10:35:09.061 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.Models.Mlib, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-06 10:35:09.103 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetLibrosEditorial (Prueba_Automapper) in 549.4697ms
+2021-11-06 10:35:09.103 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosEditorial (Prueba_Automapper)'
+2021-11-06 10:35:09.106 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libroseditorial?editorial=Bruguera - - - 200 - application/json;+charset=utf-8 594.1081ms
+2021-11-06 10:35:35.992 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/temas - -
+2021-11-06 10:35:35.992 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-11-06 10:35:36.006 +01:00 [INF] Route matched with {action = "GetTemas", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetTemas() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-11-06 10:35:36.029 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-11-06 10:35:36.080 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[tema])))
+FROM [mlib] AS [m]
+2021-11-06 10:35:36.085 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-11-06 10:35:36.087 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper) in 80.8217ms
+2021-11-06 10:35:36.087 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-11-06 10:35:36.088 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/temas - - - 200 - application/json;+charset=utf-8 95.5785ms
