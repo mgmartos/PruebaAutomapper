@@ -278,13 +278,23 @@ namespace Prueba_Automapper.Repository
 
         public async Task<List<string>> GetTemas()
         {
-            return await this._context.Mlibs.Select(t => t.Tema).Distinct().ToListAsync();
+            return await this._context.Mlibs.Select(t => t.Tema.Trim().ToUpper()).Distinct().ToListAsync();
         }
 
         public async Task<IEnumerable<Mlib>> GetLibrosTema(string tema)
         {
 
             return await this._context.Mlibs.Where(t => t.Tema.Trim().ToLower() == tema.Trim().ToLower()).ToListAsync();
+        }
+
+        public async Task<List<string>> GetEditoriales()
+        {
+            return await this._context.Mlibs.Select(e => e.Editorial.Trim().ToUpper()).Distinct().ToListAsync();
+        }
+
+        public async Task<IEnumerable<Mlib>> GetLibrosEditorial(string editorial)
+        {
+            return await this._context.Mlibs.Where(e => e.Editorial.Trim().ToLower() == editorial.Trim().ToLower()).ToListAsync();
         }
     }
 }
