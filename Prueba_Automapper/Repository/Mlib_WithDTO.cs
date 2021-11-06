@@ -284,7 +284,7 @@ namespace Prueba_Automapper.Repository
         public async Task<IEnumerable<Mlib>> GetLibrosTema(string tema)
         {
 
-            return await this._context.Mlibs.Where(t => t.Tema == tema).ToListAsync();
+            return await this._context.Mlibs.Where(t => t.Tema.Trim().ToLower() == tema.Trim().ToLower()).ToListAsync();
         }
     }
 }
