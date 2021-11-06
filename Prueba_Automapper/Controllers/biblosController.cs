@@ -145,6 +145,14 @@ namespace Prueba_Automapper.Controllers
             //return CreatedAtAction("GetMlib", new { id = mlib.IdLibro }, mlib);
         }
 
+        // GET: api/biblos
+        [HttpGet("temas")]
+        public async Task<List<string>> GetTemas()
+        {
+            return await this._repository.GetTemas();
+        }
+
+
        /*  // DELETE: api/biblos/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMlib(int id)
