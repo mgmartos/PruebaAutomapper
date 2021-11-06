@@ -33,6 +33,7 @@ namespace Prueba_Automapper.Interfaces
 
         Task<List<string>> GetTemas();
 
+        Task<IEnumerable<Mlib>> GetLibrosTema(int idTema);
 
 
 
