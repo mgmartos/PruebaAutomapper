@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Prueba_Automapper.Controllers;
 using Prueba_Automapper.Interfaces;
 using Prueba_Automapper.Middlewares;
 using Prueba_Automapper.Models;
@@ -41,6 +42,8 @@ namespace Prueba_Automapper
             });
 
             services.AddDbContext<biblosContext>(options => options.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
+            //services.AddScoped<IMlib_WithDTO, Mlib_WithDTO>(); 
+            
             services.AddScoped<IMlib_WithDTO, Mlib_WithDTO>();
             // se añade servicio para que funciones Loggin / Ilogin
             services.AddScoped<ILogin, Loggin>();

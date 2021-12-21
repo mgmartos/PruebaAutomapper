@@ -9,6 +9,8 @@ using Prueba_Automapper.DTO;
 using Prueba_Automapper.Models;
 using Prueba_Automapper.Repository;
 using Prueba_Automapper.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace Prueba_Automapper.Controllers
 {
@@ -18,20 +20,18 @@ namespace Prueba_Automapper.Controllers
     {
         private readonly IMlib_WithDTO _repository;
 
+
         public biblosController(IMlib_WithDTO repository)
         {
             _repository = repository;
         }
 
         // GET: api/biblos
-
         [HttpGet("libros")]
         public async Task<IEnumerable<Mlib>> GetMlibs()
         {
             //return await _context.Mlibs.ToListAsync();
             return await _repository.GetMlibs();
-
-
         }
 
         // GET: api/biblos/5
@@ -162,6 +162,9 @@ namespace Prueba_Automapper.Controllers
         [HttpGet("editoriales")]
         public async Task<List<string>> GetEditoriales()
         {
+
+            var pp = await this._repository.GetEditoriales();
+
             return await this._repository.GetEditoriales();
         }
         // GET: api/biblos

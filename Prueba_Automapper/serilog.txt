@@ -958,3 +958,822 @@ WHERE LOWER(LTRIM(RTRIM([m].[editorial]))) = @__ToLower_0
 2021-11-09 11:31:23.823 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetLibrosEditorial (Prueba_Automapper) in 157.2818ms
 2021-11-09 11:31:23.824 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetLibrosEditorial (Prueba_Automapper)'
 2021-11-09 11:31:23.837 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libroseditorial?editorial=BRUGUERA - - - 200 - application/json;+charset=utf-8 178.8680ms
+2021-12-15 08:53:49.180 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 08:53:49.200 +01:00 [INF] Hosting environment: Development
+2021-12-15 08:53:49.214 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 08:53:49.271 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 08:53:49.490 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 08:53:49.492 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 233.7688ms
+2021-12-15 08:53:50.094 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 604.0967ms
+2021-12-15 08:53:51.159 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 08:53:51.182 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11950 application/javascript;+charset=utf-8 22.5865ms
+2021-12-15 08:53:51.992 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 08:53:52.051 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 08:53:52.062 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 69.5650ms
+2021-12-15 08:54:29.323 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 08:54:29.359 +01:00 [INF] Hosting environment: Development
+2021-12-15 08:54:29.360 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 08:54:29.390 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 08:54:29.503 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 08:54:29.505 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 123.6377ms
+2021-12-15 08:54:29.835 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 331.8515ms
+2021-12-15 08:54:29.939 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 08:54:29.946 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11950 application/javascript;+charset=utf-8 6.5231ms
+2021-12-15 08:54:30.460 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - -
+2021-12-15 08:54:30.480 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-15 08:54:30.481 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - - - 200 628 image/png 20.7700ms
+2021-12-15 08:55:08.598 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 08:55:08.671 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 72.7527ms
+2021-12-15 08:55:08.691 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 08:55:08.704 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11950 application/javascript;+charset=utf-8 12.3425ms
+2021-12-15 08:55:43.080 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 08:55:43.117 +01:00 [INF] Hosting environment: Development
+2021-12-15 08:55:43.119 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 08:55:43.149 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 08:55:43.622 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 476.1247ms
+2021-12-15 08:55:43.676 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 08:55:44.742 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 1065.5921ms
+2021-12-15 08:55:44.751 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 08:55:44.752 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 08:55:44.753 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 08:55:44.753 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 08:55:44.762 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11950 application/javascript;+charset=utf-8 8.5368ms
+2021-12-15 08:55:44.808 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 08:55:44.808 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 08:55:44.815 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 63.0625ms
+2021-12-15 08:55:44.827 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 08:55:44.833 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 71.9691ms
+2021-12-15 08:55:44.881 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 129.4727ms
+2021-12-15 08:55:45.622 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 08:55:45.825 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - -
+2021-12-15 08:55:45.857 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-15 08:55:45.860 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - - - 200 628 image/png 34.9587ms
+2021-12-15 08:55:45.940 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 318.7566ms
+2021-12-15 08:56:52.563 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 08:56:52.596 +01:00 [INF] Hosting environment: Development
+2021-12-15 08:56:52.597 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 08:56:52.624 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 08:56:52.788 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 08:56:52.792 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 174.3912ms
+2021-12-15 08:56:54.912 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 2124.4694ms
+2021-12-15 08:56:55.005 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 08:56:55.011 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 08:56:55.013 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 08:56:55.014 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 08:56:55.038 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11950 application/javascript;+charset=utf-8 23.8410ms
+2021-12-15 08:56:55.082 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 08:56:55.092 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 86.7395ms
+2021-12-15 08:56:55.097 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 08:56:55.145 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 131.9596ms
+2021-12-15 08:56:55.214 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 08:56:55.264 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 253.5841ms
+2021-12-15 08:56:55.688 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 08:56:55.772 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 56.0049ms
+2021-12-15 08:56:55.937 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 08:56:55.939 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.6730ms
+2021-12-15 08:56:56.238 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 08:56:56.371 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - -
+2021-12-15 08:56:56.376 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-15 08:56:56.377 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - - - 200 628 image/png 5.8807ms
+2021-12-15 08:56:56.605 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 367.0416ms
+2021-12-15 08:57:24.795 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/temas - -
+2021-12-15 08:57:24.821 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-12-15 08:57:24.875 +01:00 [INF] Route matched with {action = "GetTemas", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetTemas() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-15 08:57:26.215 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-15 08:57:27.973 +01:00 [ERR] An error occurred using the connection to database 'biblos' on server 'tcp:biblos-mgm-bbdd.database.windows.net,1433'.
+2021-12-15 08:57:28.081 +01:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Prueba_Automapper.Models.biblosContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'biblos-mgm-bbdd' requested by the login. Client with IP address '165.225.92.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:93032c64-a4a1-4fbd-8d45-b9fcc295d12a
+Error Number:40615,State:1,Class:14
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'biblos-mgm-bbdd' requested by the login. Client with IP address '165.225.92.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:93032c64-a4a1-4fbd-8d45-b9fcc295d12a
+Error Number:40615,State:1,Class:14
+2021-12-15 08:57:28.522 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper) in 3636.6158ms
+2021-12-15 08:57:28.526 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-12-15 08:57:29.102 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open server 'biblos-mgm-bbdd' requested by the login. Client with IP address '165.225.92.155' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CheckPoolBlockingPeriod(Exception e)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Prueba_Automapper.Repository.Mlib_WithDTO.GetTemas() in C:\Pruebas\AutoMapper\Prueba_Automapper\Repository\Mlib_WithDTO.cs:line 281
+   at Prueba_Automapper.Controllers.biblosController.GetTemas() in C:\Pruebas\AutoMapper\Prueba_Automapper\Controllers\biblosController.cs:line 152
+   at lambda_method5(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in C:\Pruebas\AutoMapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ClientConnectionId:93032c64-a4a1-4fbd-8d45-b9fcc295d12a
+Error Number:40615,State:1,Class:14
+2021-12-15 08:57:29.146 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/temas - - - 500 - text/plain 4351.4492ms
+2021-12-15 08:59:11.091 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 08:59:11.184 +01:00 [INF] Hosting environment: Development
+2021-12-15 08:59:11.186 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 08:59:11.240 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 08:59:11.487 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 08:59:11.488 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 254.6920ms
+2021-12-15 08:59:12.053 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 566.1588ms
+2021-12-15 08:59:12.159 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 08:59:12.235 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 08:59:12.296 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 08:59:12.297 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 08:59:12.436 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11950 application/javascript;+charset=utf-8 139.6822ms
+2021-12-15 08:59:12.456 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 08:59:12.456 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 08:59:12.458 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 08:59:12.478 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 318.6199ms
+2021-12-15 08:59:12.499 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 263.7421ms
+2021-12-15 08:59:12.532 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 235.0591ms
+2021-12-15 08:59:12.842 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 08:59:12.908 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 65.8490ms
+2021-12-15 08:59:13.111 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 08:59:13.112 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.3804ms
+2021-12-15 08:59:13.469 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 08:59:13.775 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 306.2863ms
+2021-12-15 08:59:22.958 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/temas - -
+2021-12-15 08:59:22.972 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-12-15 08:59:23.014 +01:00 [INF] Route matched with {action = "GetTemas", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetTemas() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-15 08:59:24.265 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-15 08:59:25.905 +01:00 [INF] Executed DbCommand (212ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[tema])))
+FROM [mlib] AS [m]
+2021-12-15 08:59:25.970 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-12-15 08:59:25.997 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper) in 2971.7436ms
+2021-12-15 08:59:26.001 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-12-15 08:59:26.007 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/temas - - - 200 - application/json;+charset=utf-8 3049.4754ms
+2021-12-15 09:27:27.186 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 09:27:27.227 +01:00 [INF] Hosting environment: Development
+2021-12-15 09:27:27.229 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 09:27:27.273 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 09:27:27.493 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 224.4832ms
+2021-12-15 09:27:27.502 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 09:27:28.488 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 985.1070ms
+2021-12-15 09:27:28.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 09:27:28.505 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 09:27:28.508 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 09:27:28.508 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 09:27:28.517 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11950 application/javascript;+charset=utf-8 8.6219ms
+2021-12-15 09:27:28.600 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 09:27:28.600 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 09:27:28.623 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 118.3307ms
+2021-12-15 09:27:28.694 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 09:27:28.739 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 231.0120ms
+2021-12-15 09:27:28.851 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 346.7093ms
+2021-12-15 09:27:29.312 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 09:27:29.383 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 70.7708ms
+2021-12-15 09:27:29.682 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 09:27:29.688 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 6.2581ms
+2021-12-15 09:27:30.433 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 09:27:30.701 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 267.7983ms
+2021-12-15 09:27:38.763 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/editoriales - -
+2021-12-15 09:27:38.777 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-15 09:27:38.855 +01:00 [INF] Route matched with {action = "GetEditoriales", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetEditoriales() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-15 09:27:46.836 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-15 09:27:49.705 +01:00 [INF] Executed DbCommand (109ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-15 13:15:26.348 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 13:15:26.413 +01:00 [INF] Hosting environment: Development
+2021-12-15 13:15:26.415 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 13:15:26.458 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 13:15:26.742 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 288.5302ms
+2021-12-15 13:15:26.749 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 13:15:27.486 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 738.8222ms
+2021-12-15 13:15:27.543 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 13:15:27.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 13:15:27.544 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 13:15:27.548 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 13:15:27.637 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 88.2768ms
+2021-12-15 13:15:27.678 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 13:15:27.678 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 13:15:27.688 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 145.0423ms
+2021-12-15 13:15:27.690 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 13:15:27.738 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 194.1002ms
+2021-12-15 13:15:27.793 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 248.9838ms
+2021-12-15 13:15:28.434 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 13:15:28.511 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 77.4548ms
+2021-12-15 13:15:28.914 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 13:15:28.919 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 5.5405ms
+2021-12-15 13:15:29.479 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 13:15:29.928 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 448.2968ms
+2021-12-15 13:15:54.641 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=100 - -
+2021-12-15 13:15:54.661 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-12-15 13:15:54.756 +01:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-15 13:16:02.233 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-15 13:16:04.671 +01:00 [INF] Executed DbCommand (136ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-12-15 13:16:10.745 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 13:16:10.751 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 13:16:12.709 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 1963.6799ms
+2021-12-15 13:16:12.719 +01:00 [INF] Obtenido el libro CONSPIRACIÓN EN LA CORTE                           a las 13:16:10:802
+2021-12-15 13:16:12.747 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 1996.1933ms
+2021-12-15 13:16:12.782 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 13:16:12.782 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 13:16:12.785 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 13:16:12.785 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 13:16:12.797 +01:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-12-15 13:16:12.801 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 13:16:12.801 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 16.0600ms
+2021-12-15 13:16:12.803 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 13:16:12.859 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 73.5655ms
+2021-12-15 13:16:12.875 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 13:16:12.891 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 109.5546ms
+2021-12-15 13:16:12.995 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 18224.358ms
+2021-12-15 13:16:12.996 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-12-15 13:16:13.073 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 290.7831ms
+2021-12-15 13:16:13.078 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=100 - - - 200 - application/json;+charset=utf-8 18438.7984ms
+2021-12-15 13:16:13.235 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 13:16:13.236 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 0.9628ms
+2021-12-15 13:16:13.514 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 13:16:13.519 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 5.2741ms
+2021-12-15 13:16:14.123 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 13:16:14.145 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 21.8242ms
+2021-12-15 13:16:14.309 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - -
+2021-12-15 13:16:14.316 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-15 13:16:14.329 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - - - 200 628 image/png 19.7014ms
+2021-12-15 13:33:48.659 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 13:33:48.732 +01:00 [INF] Hosting environment: Development
+2021-12-15 13:33:48.734 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 13:33:48.777 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 13:33:49.034 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 13:33:49.046 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 274.1427ms
+2021-12-15 13:33:50.302 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 1268.5853ms
+2021-12-15 13:33:50.536 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 13:33:50.538 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 13:33:50.670 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 13:33:50.670 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 13:33:50.731 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 60.9363ms
+2021-12-15 13:33:50.755 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 13:33:50.755 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 13:33:50.755 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 13:33:50.758 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 219.9124ms
+2021-12-15 13:33:50.762 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 92.2671ms
+2021-12-15 13:33:50.781 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 244.7346ms
+2021-12-15 13:33:51.744 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 13:33:51.803 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 58.4900ms
+2021-12-15 13:33:52.120 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 13:33:52.121 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.4760ms
+2021-12-15 13:33:52.596 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 13:33:52.777 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.4244ms
+2021-12-15 13:34:09.417 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=100 - -
+2021-12-15 13:34:09.429 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-12-15 13:34:09.493 +01:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-15 13:34:18.574 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-15 13:34:40.693 +01:00 [INF] Executed DbCommand (118ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+2021-12-15 13:42:47.020 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 13:42:47.074 +01:00 [INF] Hosting environment: Development
+2021-12-15 13:42:47.075 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 13:42:47.114 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 13:42:47.539 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 430.8322ms
+2021-12-15 13:42:47.578 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 13:42:48.447 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 869.1870ms
+2021-12-15 13:42:48.578 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 13:42:48.623 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 13:42:48.624 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 13:42:48.624 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 13:42:48.675 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 50.3663ms
+2021-12-15 13:42:48.695 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 13:42:48.695 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 13:42:48.704 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 125.4196ms
+2021-12-15 13:42:48.724 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 13:42:48.742 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 118.5616ms
+2021-12-15 13:42:48.871 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 248.4237ms
+2021-12-15 13:42:49.296 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 13:42:49.373 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 76.8947ms
+2021-12-15 13:42:49.706 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 13:42:49.708 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.8379ms
+2021-12-15 13:42:50.239 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 13:42:50.831 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 591.3100ms
+2021-12-15 13:43:09.498 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=111 - -
+2021-12-15 13:43:09.527 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-12-15 13:43:09.887 +01:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-15 13:46:08.515 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 13:46:08.649 +01:00 [INF] Hosting environment: Development
+2021-12-15 13:46:08.650 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 13:46:08.696 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 13:46:08.861 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 13:46:08.862 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 171.7796ms
+2021-12-15 13:46:09.459 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 597.2944ms
+2021-12-15 13:46:09.499 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 13:46:09.507 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 13:46:09.511 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 13:46:09.511 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 13:46:09.650 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 138.3976ms
+2021-12-15 13:46:09.688 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 13:46:09.688 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 13:46:09.696 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 188.8307ms
+2021-12-15 13:46:09.756 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 13:46:09.809 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 298.7401ms
+2021-12-15 13:46:09.903 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 403.7673ms
+2021-12-15 13:46:10.295 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 13:46:10.356 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 62.1599ms
+2021-12-15 13:46:10.655 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 13:46:10.660 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 4.7195ms
+2021-12-15 13:46:11.181 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 13:46:11.377 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 196.5489ms
+2021-12-15 13:49:17.232 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 13:49:17.250 +01:00 [INF] Hosting environment: Development
+2021-12-15 13:49:17.251 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 13:49:17.268 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 13:49:17.382 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 13:49:17.397 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 131.1352ms
+2021-12-15 13:49:17.902 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 519.4736ms
+2021-12-15 13:49:17.927 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 13:49:17.929 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 13:49:17.929 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 13:49:17.935 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 13:49:17.956 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 26.4629ms
+2021-12-15 13:49:18.054 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 13:49:18.055 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 13:49:18.058 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 13:49:18.079 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 144.6399ms
+2021-12-15 13:49:18.089 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 160.4238ms
+2021-12-15 13:49:18.139 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 211.5670ms
+2021-12-15 13:49:18.937 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 13:49:18.974 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 37.4421ms
+2021-12-15 13:49:20.132 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 13:49:20.134 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.9914ms
+2021-12-15 13:49:21.258 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 13:49:21.537 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.7574ms
+2021-12-15 13:52:10.502 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-15 13:52:10.536 +01:00 [INF] Hosting environment: Development
+2021-12-15 13:52:10.537 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-15 13:52:10.564 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-15 13:52:10.838 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-15 13:52:10.852 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 290.7725ms
+2021-12-15 13:52:11.265 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 426.8059ms
+2021-12-15 13:52:11.285 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-15 13:52:11.286 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-15 13:52:11.287 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-15 13:52:11.288 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-15 13:52:11.355 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 66.7263ms
+2021-12-15 13:52:11.400 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-15 13:52:11.401 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-15 13:52:11.400 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-15 13:52:11.415 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 129.0199ms
+2021-12-15 13:52:11.426 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 138.6002ms
+2021-12-15 13:52:11.448 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 161.3059ms
+2021-12-15 13:52:11.726 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-15 13:52:11.814 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 87.9467ms
+2021-12-15 13:52:12.047 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-15 13:52:12.049 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 1.7685ms
+2021-12-15 13:52:12.437 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-15 13:52:12.616 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 178.8064ms
+2021-12-15 13:52:27.144 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=111 - -
+2021-12-15 13:52:27.153 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-12-15 13:52:27.230 +01:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-20 12:07:34.904 +01:00 [INF] Now listening on: http://127.0.0.1:14425
+2021-12-20 12:07:34.916 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-20 12:07:34.916 +01:00 [INF] Hosting environment: Development
+2021-12-20 12:07:34.916 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-20 12:07:35.532 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger - -
+2021-12-20 12:07:35.656 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger - - - 301 0 - 131.4218ms
+2021-12-20 12:07:40.173 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger - -
+2021-12-20 12:07:40.177 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger - - - 301 0 - 3.6870ms
+2021-12-20 12:07:40.317 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger/index.html - -
+2021-12-20 12:07:40.559 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 241.8910ms
+2021-12-20 12:07:40.982 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui.css - -
+2021-12-20 12:07:40.995 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-20 12:07:41.056 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-20 12:07:41.058 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-20 12:07:41.064 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-20 12:07:41.088 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-20 12:07:41.088 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 106.6210ms
+2021-12-20 12:07:41.100 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 42.4884ms
+2021-12-20 12:07:41.100 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 105.4071ms
+2021-12-20 12:07:42.930 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger/v1/swagger.json - -
+2021-12-20 12:07:42.993 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger/favicon-32x32.png - -
+2021-12-20 12:07:42.994 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-20 12:07:42.994 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger/favicon-32x32.png - - - 200 628 image/png 1.5340ms
+2021-12-20 12:07:43.020 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-20 12:07:43.020 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-20 12:07:43.101 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 0 - 80.5612ms
+2021-12-20 12:07:43.102 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 0 - 81.1302ms
+2021-12-20 12:07:43.169 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.5176ms
+2021-12-21 10:17:13.719 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-21 10:17:13.855 +01:00 [INF] Hosting environment: Development
+2021-12-21 10:17:13.856 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-21 10:17:13.909 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-21 10:17:14.211 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-21 10:17:14.225 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 323.0846ms
+2021-12-21 10:17:15.270 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 1059.1547ms
+2021-12-21 10:17:15.305 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-21 10:17:15.305 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-21 10:17:15.306 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-21 10:17:15.326 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-21 10:17:15.366 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 60.1392ms
+2021-12-21 10:17:15.414 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-21 10:17:15.425 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 120.1560ms
+2021-12-21 10:17:15.980 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-21 10:17:16.022 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 710.4083ms
+2021-12-21 10:17:16.096 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-21 10:17:16.246 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 940.4974ms
+2021-12-21 10:17:16.589 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-21 10:17:16.653 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 64.4108ms
+2021-12-21 10:17:17.292 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-21 10:17:17.298 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 6.7341ms
+2021-12-21 10:17:18.010 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-21 10:17:18.536 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 525.2090ms
+2021-12-21 10:18:04.424 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libros - -
+2021-12-21 10:18:04.453 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper)'
+2021-12-21 10:18:04.519 +01:00 [INF] Route matched with {action = "GetMlibs", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Prueba_Automapper.Models.Mlib]] GetMlibs() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 10:18:38.605 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 10:18:40.814 +01:00 [INF] Executed DbCommand (159ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+2021-12-21 10:18:41.338 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.Models.Mlib, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-21 10:18:41.463 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper) in 36930.1062ms
+2021-12-21 10:18:41.467 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper)'
+2021-12-21 10:18:41.486 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libros - - - 200 - application/json;+charset=utf-8 37062.7112ms
+2021-12-21 10:59:39.188 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-21 10:59:39.217 +01:00 [INF] Hosting environment: Development
+2021-12-21 10:59:39.219 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-21 10:59:39.252 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-21 10:59:39.460 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-21 10:59:39.466 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 220.3424ms
+2021-12-21 10:59:39.887 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 426.7671ms
+2021-12-21 10:59:39.924 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-21 10:59:39.925 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-21 10:59:39.925 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-21 10:59:39.927 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-21 10:59:39.973 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 47.3236ms
+2021-12-21 10:59:40.005 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-21 10:59:40.032 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 105.6913ms
+2021-12-21 10:59:40.149 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-21 10:59:40.225 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 297.7193ms
+2021-12-21 10:59:40.325 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-21 10:59:40.451 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 526.6754ms
+2021-12-21 10:59:40.968 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-21 10:59:41.055 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 87.3017ms
+2021-12-21 10:59:41.648 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-21 10:59:41.653 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 4.5757ms
+2021-12-21 10:59:42.237 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-21 10:59:42.451 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.6604ms
+2021-12-21 10:59:57.116 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - -
+2021-12-21 10:59:57.128 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-12-21 10:59:57.200 +01:00 [INF] Route matched with {action = "GetMlib", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Prueba_Automapper.Models.Mlib]] GetMlib(Int32) on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 11:01:05.338 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 11:01:07.589 +01:00 [INF] Executed DbCommand (119ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+WHERE [m].[idLibro] = @__p_0
+2021-12-21 11:01:19.939 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-21 11:01:20.284 +01:00 [INF] Obtenido el libro ¿SUEÑAN LOS ANDROIDES CON OVEJAS ELÉCTRICAS?       a las 11:01:07:833
+2021-12-21 11:01:20.358 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 419.2621ms
+2021-12-21 11:01:20.359 +01:00 [INF] Executing ObjectResult, writing value of type 'Prueba_Automapper.Models.Mlib'.
+2021-12-21 11:01:20.445 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper) in 83215.0433ms
+2021-12-21 11:01:20.446 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlib (Prueba_Automapper)'
+2021-12-21 11:01:20.455 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - - - 200 - application/json;+charset=utf-8 83338.4886ms
+2021-12-21 11:01:20.589 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-21 11:01:20.760 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-21 11:01:20.849 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-21 11:01:21.165 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-21 11:01:21.166 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-21 11:01:21.308 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 718.7204ms
+2021-12-21 11:01:21.308 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 142.9324ms
+2021-12-21 11:01:21.330 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-21 11:01:21.338 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-21 11:01:21.380 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 531.5868ms
+2021-12-21 11:01:21.489 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 729.0346ms
+2021-12-21 11:01:21.730 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-21 11:01:21.794 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 1.5749ms
+2021-12-21 11:01:22.047 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-21 11:01:22.054 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 6.7575ms
+2021-12-21 11:01:22.408 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - -
+2021-12-21 11:01:22.408 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-21 11:01:22.413 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-21 11:01:22.414 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/favicon-32x32.png - - - 200 628 image/png 5.8634ms
+2021-12-21 11:01:22.427 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 18.6358ms
+2021-12-21 11:18:10.713 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-21 11:18:11.371 +01:00 [INF] Hosting environment: Development
+2021-12-21 11:18:11.373 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-21 11:18:11.651 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-21 11:18:12.214 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-21 11:18:12.215 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 566.1103ms
+2021-12-21 11:18:12.975 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 761.0225ms
+2021-12-21 11:18:13.032 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-21 11:18:13.040 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-21 11:18:13.049 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-21 11:18:13.081 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-21 11:18:13.188 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 106.4973ms
+2021-12-21 11:18:13.243 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-21 11:18:13.243 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-21 11:18:13.250 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 217.9735ms
+2021-12-21 11:18:13.273 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 224.1657ms
+2021-12-21 11:18:13.319 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-21 11:18:13.540 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 500.1642ms
+2021-12-21 11:18:14.034 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-21 11:18:14.111 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 76.8366ms
+2021-12-21 11:18:14.758 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-21 11:18:14.833 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 75.0076ms
+2021-12-21 11:18:15.652 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-21 11:18:16.107 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 455.0447ms
+2021-12-21 11:18:26.063 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - -
+2021-12-21 11:18:26.085 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-12-21 11:18:29.131 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in C:\Pruebas\AutoMapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-21 11:18:29.210 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libro?id=1 - - - 500 - text/plain 3147.3232ms
+2021-12-21 13:07:38.742 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-21 13:07:38.778 +01:00 [INF] Hosting environment: Development
+2021-12-21 13:07:38.779 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-21 13:07:38.834 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-21 13:07:39.364 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 545.3720ms
+2021-12-21 13:07:39.378 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-21 13:07:40.635 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 1256.7744ms
+2021-12-21 13:07:40.686 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-21 13:07:40.709 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-21 13:07:40.710 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-21 13:07:40.803 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-21 13:07:40.896 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 92.4110ms
+2021-12-21 13:07:40.896 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-21 13:07:40.898 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-21 13:07:40.905 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 218.9638ms
+2021-12-21 13:07:40.933 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 223.9167ms
+2021-12-21 13:07:40.937 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-21 13:07:41.081 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 371.6150ms
+2021-12-21 13:07:41.510 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-21 13:07:41.688 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 178.1706ms
+2021-12-21 13:07:42.320 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-21 13:07:42.325 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 4.9948ms
+2021-12-21 13:07:43.083 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-21 13:07:43.645 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 561.4894ms
+2021-12-21 13:08:01.041 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/temas - -
+2021-12-21 13:08:01.058 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-12-21 13:08:01.641 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in C:\Pruebas\AutoMapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-21 13:08:01.651 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/temas - - - 500 - text/plain 610.4011ms
+2021-12-21 13:08:51.516 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-21 13:08:51.589 +01:00 [INF] Hosting environment: Development
+2021-12-21 13:08:51.590 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-21 13:08:51.636 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-21 13:08:51.902 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-21 13:08:51.908 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 282.1686ms
+2021-12-21 13:08:52.436 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 533.9600ms
+2021-12-21 13:08:52.462 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-21 13:08:52.462 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-21 13:08:52.463 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-21 13:08:52.464 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-21 13:08:52.555 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 90.1413ms
+2021-12-21 13:08:52.588 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-21 13:08:52.588 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-21 13:08:52.602 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 139.9821ms
+2021-12-21 13:08:52.602 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 138.6257ms
+2021-12-21 13:08:52.693 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-21 13:08:52.827 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 364.6264ms
+2021-12-21 13:08:53.211 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-21 13:08:53.321 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 109.9162ms
+2021-12-21 13:08:53.652 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-21 13:08:53.655 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 2.6694ms
+2021-12-21 13:08:54.251 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-21 13:08:54.532 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 280.7490ms
+2021-12-21 13:09:07.435 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/temas - -
+2021-12-21 13:09:07.451 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-12-21 13:09:07.589 +01:00 [INF] Route matched with {action = "GetTemas", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetTemas() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:09:13.905 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper) in 6309.3424ms
+2021-12-21 13:09:13.908 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-12-21 13:09:14.246 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[Prueba_Automapper.Models.ApplicationUser]' while attempting to activate 'Prueba_Automapper.Controllers.biblosController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Prueba_Automapper.Middlewares.EjemploMiddleware.Invoke(HttpContext context) in C:\Pruebas\AutoMapper\Prueba_Automapper\Middlewares\EjemploMiddleware.cs:line 36
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-21 13:09:14.257 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/temas - - - 500 - text/plain 6822.1441ms
+2021-12-21 13:11:48.015 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-21 13:11:48.187 +01:00 [INF] Hosting environment: Development
+2021-12-21 13:11:48.188 +01:00 [INF] Content root path: C:\Pruebas\AutoMapper\Prueba_Automapper
+2021-12-21 13:11:48.225 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger - -
+2021-12-21 13:11:48.716 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger - - - 301 - - 494.2705ms
+2021-12-21 13:11:48.775 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-21 13:11:49.735 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 959.5957ms
+2021-12-21 13:11:49.802 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-21 13:11:49.814 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-21 13:11:49.896 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-21 13:11:49.896 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-21 13:11:50.074 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 177.2289ms
+2021-12-21 13:11:50.090 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-21 13:11:50.090 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-21 13:11:50.117 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 314.4629ms
+2021-12-21 13:11:50.126 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 229.8866ms
+2021-12-21 13:11:50.326 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-21 13:11:50.475 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 660.2557ms
+2021-12-21 13:11:51.014 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-21 13:11:51.094 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 79.4640ms
+2021-12-21 13:11:51.883 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-21 13:11:51.898 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 14.6342ms
+2021-12-21 13:11:52.531 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-21 13:11:52.997 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 465.5956ms
+2021-12-21 13:12:02.299 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/temas - -
+2021-12-21 13:12:02.311 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-12-21 13:12:02.369 +01:00 [INF] Route matched with {action = "GetTemas", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetTemas() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:12:08.326 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:12:10.327 +01:00 [INF] Executed DbCommand (166ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[tema])))
+FROM [mlib] AS [m]
+2021-12-21 13:12:10.400 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-12-21 13:12:10.420 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper) in 8041.3387ms
+2021-12-21 13:12:10.422 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetTemas (Prueba_Automapper)'
+2021-12-21 13:12:10.431 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/temas - - - 200 - application/json;+charset=utf-8 8132.1934ms
+2021-12-21 13:12:47.122 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/editoriales - -
+2021-12-21 13:12:47.133 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:12:47.140 +01:00 [INF] Route matched with {action = "GetEditoriales", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetEditoriales() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:13:19.038 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:13:19.110 +01:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:13:19.163 +01:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:13:19.164 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-12-21 13:13:19.165 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper) in 32024.6612ms
+2021-12-21 13:13:19.165 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:13:19.166 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/editoriales - - - 200 - application/json;+charset=utf-8 32044.2009ms
+2021-12-21 13:16:13.118 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/index.html - -
+2021-12-21 13:16:13.174 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/index.html - - - 200 - text/html;charset=utf-8 58.9541ms
+2021-12-21 13:16:13.235 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - -
+2021-12-21 13:16:13.240 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - -
+2021-12-21 13:16:13.253 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - -
+2021-12-21 13:16:13.250 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - -
+2021-12-21 13:16:13.286 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/_framework/aspnetcore-browser-refresh.js - - - 200 11951 application/javascript;+charset=utf-8 36.2060ms
+2021-12-21 13:16:13.318 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-21 13:16:13.320 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-21 13:16:13.322 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui.css - - - 200 142933 text/css 68.9724ms
+2021-12-21 13:16:13.341 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 100.1261ms
+2021-12-21 13:16:13.381 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-21 13:16:13.445 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 209.4348ms
+2021-12-21 13:16:13.683 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - -
+2021-12-21 13:16:13.685 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-bundle.js.map - - - 404 - - 1.5996ms
+2021-12-21 13:16:13.846 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - -
+2021-12-21 13:16:13.850 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44314/swagger/swagger-ui-standalone-preset.js.map - - - 404 - - 3.8299ms
+2021-12-21 13:16:14.106 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - -
+2021-12-21 13:16:14.256 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.1296ms
+2021-12-21 13:16:40.325 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/editoriales - -
+2021-12-21 13:16:40.327 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:16:40.333 +01:00 [INF] Route matched with {action = "GetEditoriales", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetEditoriales() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:16:53.977 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:18:24.363 +01:00 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:18:24.430 +01:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:18:24.742 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-12-21 13:18:25.137 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper) in 104804.4615ms
+2021-12-21 13:18:25.137 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:18:25.138 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/editoriales - - - 200 - application/json;+charset=utf-8 104813.2986ms
+2021-12-21 13:18:43.827 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/editoriales - -
+2021-12-21 13:18:43.919 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:18:43.919 +01:00 [INF] Route matched with {action = "GetEditoriales", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetEditoriales() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:18:54.265 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:18:54.314 +01:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:18:54.361 +01:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:18:54.365 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-12-21 13:18:54.366 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper) in 10446.6181ms
+2021-12-21 13:18:54.366 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:18:54.367 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/editoriales - - - 200 - application/json;+charset=utf-8 10539.6123ms
+2021-12-21 13:18:54.482 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/favicon.ico - -
+2021-12-21 13:18:54.486 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/favicon.ico - - - 404 - - 3.7842ms
+2021-12-21 13:19:06.822 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/editoriales - -
+2021-12-21 13:19:06.826 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:19:06.826 +01:00 [INF] Route matched with {action = "GetEditoriales", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetEditoriales() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:19:10.102 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:19:10.150 +01:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:19:10.197 +01:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:19:10.198 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-12-21 13:19:10.199 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper) in 3372.6078ms
+2021-12-21 13:19:10.199 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:19:10.199 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/editoriales - - - 200 - application/json;+charset=utf-8 3376.9086ms
+2021-12-21 13:19:10.392 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/favicon.ico - -
+2021-12-21 13:19:10.394 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/favicon.ico - - - 404 - - 1.1417ms
+2021-12-21 13:20:46.897 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/editoriales - -
+2021-12-21 13:20:46.915 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:20:46.915 +01:00 [INF] Route matched with {action = "GetEditoriales", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[System.String]] GetEditoriales() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:20:50.206 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:20:50.258 +01:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:20:50.313 +01:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT DISTINCT UPPER(LTRIM(RTRIM([m].[editorial])))
+FROM [mlib] AS [m]
+2021-12-21 13:20:50.316 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-12-21 13:20:50.318 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper) in 3402.8721ms
+2021-12-21 13:20:50.318 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetEditoriales (Prueba_Automapper)'
+2021-12-21 13:20:50.321 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/editoriales - - - 200 - application/json;+charset=utf-8 3424.6144ms
+2021-12-21 13:21:47.181 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libros - -
+2021-12-21 13:21:47.188 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper)'
+2021-12-21 13:21:47.220 +01:00 [INF] Route matched with {action = "GetMlibs", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Prueba_Automapper.Models.Mlib]] GetMlibs() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:21:51.975 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:21:52.169 +01:00 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+2021-12-21 13:21:52.501 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.Models.Mlib, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-21 13:21:52.560 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper) in 5340.2914ms
+2021-12-21 13:21:52.561 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper)'
+2021-12-21 13:21:52.564 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libros - - - 200 - application/json;+charset=utf-8 5383.9336ms
+2021-12-21 13:32:59.651 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/libros - -
+2021-12-21 13:32:59.660 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper)'
+2021-12-21 13:32:59.660 +01:00 [INF] Route matched with {action = "GetMlibs", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Prueba_Automapper.Models.Mlib]] GetMlibs() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:33:08.437 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:33:09.059 +01:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+2021-12-21 13:33:09.305 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.Models.Mlib, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-21 13:33:09.311 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper) in 9651.3863ms
+2021-12-21 13:33:09.312 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.GetMlibs (Prueba_Automapper)'
+2021-12-21 13:33:09.320 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/libros - - - 200 - application/json;+charset=utf-8 9669.1929ms
+2021-12-21 13:50:38.344 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44314/api/biblos/librosopinionDTO - -
+2021-12-21 13:50:38.377 +01:00 [INF] Executing endpoint 'Prueba_Automapper.Controllers.biblosController.Recovery_Libros_Opinion (Prueba_Automapper)'
+2021-12-21 13:50:38.465 +01:00 [INF] Route matched with {action = "Recovery_Libros_Opinion", controller = "biblos"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Prueba_Automapper.DTO.LibrosOpinionDTO]] Recovery_Libros_Opinion() on controller Prueba_Automapper.Controllers.biblosController (Prueba_Automapper).
+2021-12-21 13:50:38.510 +01:00 [INF] Entity Framework Core 5.0.11 initialized 'biblosContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-12-21 13:50:39.038 +01:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [m].[idLibro], [m].[autor], [m].[calificacion], [m].[CodAutor], [m].[coleccion], [m].[comentario], [m].[editorial], [m].[fecha], [m].[fecha_prestamo], [m].[numobras], [m].[origen], [m].[paginas], [m].[prestamo], [m].[tema], [m].[titulo]
+FROM [mlib] AS [m]
+2021-12-21 13:50:39.497 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Prueba_Automapper.DTO.LibrosOpinionDTO, Prueba_Automapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-21 13:50:39.545 +01:00 [INF] Executed action Prueba_Automapper.Controllers.biblosController.Recovery_Libros_Opinion (Prueba_Automapper) in 1079.5462ms
+2021-12-21 13:50:39.545 +01:00 [INF] Executed endpoint 'Prueba_Automapper.Controllers.biblosController.Recovery_Libros_Opinion (Prueba_Automapper)'
+2021-12-21 13:50:39.545 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44314/api/biblos/librosopinionDTO - - - 200 - application/json;+charset=utf-8 1206.5130ms

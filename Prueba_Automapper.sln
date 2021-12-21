@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31025.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prueba_Automapper", "Prueba_Automapper\Prueba_Automapper.csproj", "{2EFA6F4A-577E-4DDE-A078-295C9987536E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prueba_Automapper", "Prueba_Automapper\Prueba_Automapper.csproj", "{2EFA6F4A-577E-4DDE-A078-295C9987536E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMapper", "TestMapper\TestMapper.csproj", "{B2826232-6E8E-4534-9271-1CD0F52AE563}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2EFA6F4A-577E-4DDE-A078-295C9987536E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EFA6F4A-577E-4DDE-A078-295C9987536E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EFA6F4A-577E-4DDE-A078-295C9987536E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2826232-6E8E-4534-9271-1CD0F52AE563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2826232-6E8E-4534-9271-1CD0F52AE563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2826232-6E8E-4534-9271-1CD0F52AE563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2826232-6E8E-4534-9271-1CD0F52AE563}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

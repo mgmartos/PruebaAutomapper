@@ -1,27 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pruebas\\Senior\\Prueba_Automapper\\Prueba_Automapper\\Prueba_Automapper.csproj": {}
+    "C:\\Pruebas\\AutoMapper\\Prueba_Automapper\\Prueba_Automapper.csproj": {}
   },
   "projects": {
-    "D:\\Pruebas\\Senior\\Prueba_Automapper\\Prueba_Automapper\\Prueba_Automapper.csproj": {
+    "C:\\Pruebas\\AutoMapper\\Prueba_Automapper\\Prueba_Automapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pruebas\\Senior\\Prueba_Automapper\\Prueba_Automapper\\Prueba_Automapper.csproj",
+        "projectUniqueName": "C:\\Pruebas\\AutoMapper\\Prueba_Automapper\\Prueba_Automapper.csproj",
         "projectName": "Prueba_Automapper",
-        "projectPath": "D:\\Pruebas\\Senior\\Prueba_Automapper\\Prueba_Automapper\\Prueba_Automapper.csproj",
-        "packagesPath": "C:\\Users\\mgmar\\.nuget\\packages\\",
-        "outputPath": "D:\\Pruebas\\Senior\\Prueba_Automapper\\Prueba_Automapper\\obj\\",
+        "projectPath": "C:\\Pruebas\\AutoMapper\\Prueba_Automapper\\Prueba_Automapper.csproj",
+        "packagesPath": "C:\\Users\\MGAMAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Pruebas\\AutoMapper\\Prueba_Automapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Instalaciones\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mgmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\MGAMAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -87,6 +84,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -95,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
